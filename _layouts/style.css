@@ -1,5 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
-{% include css/events.css %}
-{% include css/projects.css %}
+{% include css/item_sections.css %}
+{% include css/items.css %}
 {% include css/syntax.css %}

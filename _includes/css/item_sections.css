@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+#projects .items-item,
+#events .items-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#projects .items-item .items-link,
+#events .items-item .items-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#projects .items-item .items-link .caption,
+#events .items-item .items-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#projects .items-item .items-link .caption:hover,
+#events .items-item .items-link .caption:hover {
+    opacity: 1;
+}
+
+#projects .items-item .items-link .caption .caption-content,
+#events .items-item .items-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#projects .items-item .items-link .caption .caption-content i,
+#events .items-item .items-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#projects .items-item .items-link .caption .caption-content h3,
+#projects .items-item .items-link .caption .caption-content h4,
+#events .items-item .items-link .caption .caption-content h3,
+#events .items-item .items-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#projects *,
+#events * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #projects .items-item,
+    #events .items-item {
+        margin: 0 0 30px;
+    }
+}
