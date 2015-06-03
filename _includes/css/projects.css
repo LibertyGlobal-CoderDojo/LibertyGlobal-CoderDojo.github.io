@@ -66,18 +66,19 @@
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.projects-modal .modal-content h2 {
+.projects-modal .modal-content .modal-header {
+    text-align: center;
     margin: 0;
     font-size: 3em;
 }
 
-.projects-modal .modal-content img {
+.projects-modal .modal-content .modal-banner {
+    text-align: center;
     margin-bottom: 30px;
 }
 

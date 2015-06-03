@@ -29,4 +29,17 @@ markdown: kramdown
 permalink: pretty
 
 # Exclude these files
-exclude: [README.md, Gemfile, Gemfile.lock, LICENCE, prepare.sh, start.sh, img_src]
+exclude: [
+  README.md,
+  Gemfile,
+  Gemfile.lock,
+  LICENCE,
+  prepare.sh,
+  start.sh,
+  img_src
+]
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
