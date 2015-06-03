@@ -6,8 +6,10 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 ## How to use
 
 ### Add a project
+
  - Place an image in `/img/projects/`
  - Create posts to display your projects. Use the follow as an example:
+
 ```txt
 ---
 layout: default
@@ -19,10 +21,13 @@ section: projects
 description: The description of the project
 
 ---
+```
 
 ### Add an event
+
  - Place an image in `/img/events/`
  - Create posts to display your events. Use the follow as an example:
+
 ```txt
 ---
 layout: default
@@ -34,6 +39,7 @@ section: events
 description: The description of the event
 
 ---
+```
 
 ### To preview locally
 
