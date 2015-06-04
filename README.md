@@ -15,7 +15,7 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 title: My Project
 layout: post
 img: cabin.png
-alt: image-alt
+alt: My Project
 categories: project
 thread_id: my-project
 ---
@@ -29,6 +29,7 @@ The post Markdown content here
 - The `title` field will overide the title in the file name when the content is rendered (not in the URL though)
 - The `layout` should always be set to `post`
 - the `img` should be a file path relative to `img/posts/`
+- the `alt` should be the `alt` text to associate with the `img`
 - Adding `project` to the `categories` will ensure that the post is listed under projects. Adding `event` to the `categories` will list the post under events
   - Any categories added will also be used in the URL to the page
 - Add a unique `thread_id` (without spaces, etc) to add a [muut](https://muut.com/) comment thread to the post
