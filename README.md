@@ -12,16 +12,17 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 
 ```txt
 ---
-layout: default
-modal-id: 1
+layout: post
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-section: projects
-description: The description of the project
-
+categories: project
 ---
+
+The post Markdown content here
 ```
+
+Note that adding project to the categories will ensure that the post is listed under projects
 
 ### Add an event
 
@@ -30,16 +31,17 @@ description: The description of the project
 
 ```txt
 ---
-layout: default
-modal-id: 1
+layout: post
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-section: events
-description: The description of the event
-
+categories: event
 ---
+
+The post Markdown content here
 ```
+
+Note that adding event to the categories will ensure that the post is listed under events
 
 ### To preview locally
 
