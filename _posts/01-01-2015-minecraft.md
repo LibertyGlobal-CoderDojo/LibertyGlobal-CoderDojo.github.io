@@ -2,7 +2,7 @@
 title: Minecraft
 layout: post
 img: minecraft.png
-alt: image-alt
+alt: Minecraft
 categories: project
 thread_id: minecraft
 ---
