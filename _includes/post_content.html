@@ -18,5 +18,13 @@
             {{ content }}
           </div>
       </div>
+      {% if page.thread_id %}
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <a class="muut" href="https://muut.com/i/libertyglobal-coderdojo/comments:{{ page.thread_id }}">libertyglobal-coderdojo forum</a>
+              <script src="//cdn.muut.com/1/moot.min.js"></script>
+            </div>
+        </div>
+      {% endif %}
   </div>
 </section>
