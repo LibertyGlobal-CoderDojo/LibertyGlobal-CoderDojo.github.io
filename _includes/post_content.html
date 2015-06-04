@@ -1,17 +1,18 @@
-<section>
+<header>
   <div class="container">
       <div class="row">
-          <div class="col-lg-12 text-center">
-              <h2 class="modal-header">{{ page.title }}</h2>
-              <hr class="star-primary">
+          <div class="col-lg-12">
+              <div class="intro-text">
+                  <span class="name">{{ page.title }}</span>
+                  <hr class="star-light">
+              </div>
+              <img src="/img/posts/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
           </div>
       </div>
-      <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <img src="/img/posts/{{ page.img }}" class="modal-banner img-responsive img-centered" alt="{{ page.alt }}">
-            <hr class="star-primary">
-          </div>
-      </div>
+  </div>
+</header>
+<section>
+  <div class="container">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             {{ content }}
