@@ -1,7 +1,7 @@
 CoderDojo@LibertyGlobal site
 ============================
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
+[Jekyll](http://jekyllrb.com/docs/home/) theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
 
 ## How to use
 
