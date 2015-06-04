@@ -10,15 +10,15 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                  {% if post.section == "projects" %}
+                  {% if post.categories contains 'project' %}
                     <div class="col-sm-4 items-item">
-                        <a href="#projectsModal-{{ post.modal-id }}" class="items-link" data-toggle="modal">
+                        <a href="{{ post.url }}" class="items-link">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="/img/posts/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
                   {% endif %}

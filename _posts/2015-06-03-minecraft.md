@@ -1,10 +1,10 @@
 ---
-layout: default
-modal-id: 1
+layout: post
 date: 2015-06-03
 img: minecraft.png
 alt: image-alt
-section: projects
-description: Minecraft server details, etc. coming soon!!
+categories: project
 
 ---
+
+Minecraft server details, etc. coming soon!!
