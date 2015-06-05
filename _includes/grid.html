@@ -1,16 +1,23 @@
-
-    <!-- Projects Grid Section -->
-    <section id="projects">
+{% assign count = '0' %}
+{% for post in site.posts %}
+  {% if post.categories contains include.category %}
+    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+{% if count != '0' %}
+    <section id="{{ include.id }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
+                  <h2>{{ include.title }}</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
+                {% assign count = '0' %}
                 {% for post in site.posts %}
-                  {% if post.categories contains 'project' %}
+                  {% if post.categories contains include.category %}
+                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     <div class="col-sm-4 items-item">
                         <a href="{{ post.url }}" class="items-link">
                             <div class="caption">
@@ -21,8 +28,14 @@
                             <img src="/img/posts/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
+                    {% if count == '3' %}
+                      <div class="row">
+                      </div>
+                      {% assign count = '0' %}
+                    {% endif %}
                   {% endif %}
                 {% endfor %}
             </div>
         </div>
     </section>
+{% endif %}
