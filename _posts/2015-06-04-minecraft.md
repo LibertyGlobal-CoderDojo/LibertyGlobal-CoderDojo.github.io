@@ -69,7 +69,12 @@ If you want to set up your own server locally to run [ScriptCraft][scriptcraft] 
 1. Stop the server by pressing `Ctrl-c` at the server console prompt
 1. Download the [ScriptCraft jar file][scriptcraft-jar] to the `C:\CanaryMod\plugins` folder
   - At this point you can start the server again but you may want to make the following additional configuration changes first
-1. Change or add the following configuration options in `C:\CanaryMod\config\worlds\default\default_NORMAL.cfg`
+1. Change or add the following configuration options in 
+
+    ```
+    C:\CanaryMod\config\worlds\default\default_NORMAL.cfg
+    ```
+
 
     ```
     ; completely flat worlds are best for building from scratch world-type=FLAT generate-structures=false
