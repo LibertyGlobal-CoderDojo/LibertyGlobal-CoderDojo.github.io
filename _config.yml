@@ -52,3 +52,14 @@ highlighter: pygments
 # plugins
 gems:
   - jekyll-sitemap
+
+# sections
+sections: [{
+  id: 'projects',
+  title: 'Projects',
+  category: 'project'
+}, {
+  id: 'events',
+  title: 'Events',
+  category: 'event'
+}]

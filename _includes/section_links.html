@@ -1,0 +1,13 @@
+{% for section in site.sections %}
+  {% assign count = '0' %}
+  {% for post in site.posts %}
+    {% if post.categories contains section.category %}
+      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% if count != '0' %}
+  <li class="page-scroll">
+    <a href="#{{ section.id }}">{{ section.title }}</a>
+  </li>
+  {% endif %}
+{% endfor %}
