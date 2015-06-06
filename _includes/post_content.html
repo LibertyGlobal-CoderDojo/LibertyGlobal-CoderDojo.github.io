@@ -6,7 +6,13 @@
                   <span class="name">{{ page.title }}</span>
                   <hr class="star-light">
               </div>
-              <img src="/img/posts/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
+              {% if page.external_link %}
+                <a href="{{ page.external_link }}">
+              {% endif %}
+                <img src="/img/posts/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}"/>
+              {% if page.external_link %}
+                </a>
+              {% endif %}
           </div>
       </div>
   </div>
