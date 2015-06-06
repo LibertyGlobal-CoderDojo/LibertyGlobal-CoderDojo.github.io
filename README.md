@@ -18,6 +18,7 @@ img: cabin.png
 alt: My Project
 categories: project
 thread_id: my-project
+external_link: http://my.project.com
 ---
 
 The post Markdown content here
@@ -34,6 +35,7 @@ The post Markdown content here
 - Adding `project` to the `categories` will ensure that the post is listed under projects. Adding `event` to the `categories` will list the post under events
   - Any categories added will also be used in the URL to the page
 - Add a unique `thread_id` (without spaces, etc) to add a [muut](https://muut.com/) comment thread to the post
+- Optionally add an `external_link` to add a link to the image when rendered on the post page
 
 ### To preview locally
 
