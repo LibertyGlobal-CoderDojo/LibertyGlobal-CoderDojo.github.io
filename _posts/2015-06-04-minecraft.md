@@ -5,6 +5,7 @@ img: minecraft.png
 alt: Minecraft
 categories: project
 thread_id: minecraft
+external_link: https://minecraft.net
 ---
 
 [minecraft]: https://minecraft.net
