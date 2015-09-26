@@ -23,19 +23,6 @@ To quote the [ScriptCraft][scriptcraft] website:
 
 > ScriptCraft is a Minecraft Mod that lets you extend Minecraft using the Javascript Programming Language. ScriptCraft makes modding Minecraft easier. It includes a logo-like "Drone" object that can be used to build complex buildings, roads, villages, even entire cities. It also includes many other features that make modding Minecraft easier.
 
-### Our public server
-
-To support this we are currently maintaining a public [Minecraft][minecraft] server with the [ScriptCraft][scriptcraft] plugin already installed.
-
-- The public server is located at `167.114.156.184:25667`
-  - This is a 2GB instance supporting 40 players at [Shockbyte][shockbyte]
-- In order to run javascript you will need to be an `op`
-  - To get `opped` ask at one of our Dojos, drop a comment on this post or request through the [forum][forum]
-  - If necessary you will need to introduce yourself so we know who you are and then we'll need your public [Minecraft][minecraft] player name
-- In order to upload scripts to the server you will need FTP access
-  - To get this you will need to provide your email address so that a multicraft account can be requested for you at [Shockbyte][shockbyte]
-  - Note that this may take a little time
-
 ### Running your own server locally
 
 If you want to set up your own server locally to run [ScriptCraft][scriptcraft] you can follow these steps
