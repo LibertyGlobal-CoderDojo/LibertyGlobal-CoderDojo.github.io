@@ -36,7 +36,7 @@ If you want to set up your own server locally to run [ScriptCraft][scriptcraft] 
     ```
     C:\CanaryMod
     ```
-1. Download the [CanaryMod 1.2.0 jar file](canarymod) and put it in the `C:\CanaryMod` folder
+1. Download the [CanaryMod 1.2.0 jar file][canarymod] and put it in the `C:\CanaryMod` folder
   - We use CanaryMod instead of a vanilla Minecraft server as it facilitates plugins such as ScriptCraft. As a side note it's also possible to use other modded servers such as [Spigot][spigot] but to get started [CanaryMod][canarymod] is much simpler!
 1. To allow the server to start on the first try create a `C:\CanaryMod\eula.txt` file with the following content (otherwise it will ask you to edit this file and accept the eula)
 
